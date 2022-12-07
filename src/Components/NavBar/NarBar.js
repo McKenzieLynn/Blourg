@@ -12,7 +12,7 @@ class NavBar extends Component {
     render() { 
         return (
              <div>
-                 <Grid container >
+                 <Grid container className="align__center navbar__line">
                      <Grid item xs ={3}>
                          <div className="navbar__leftbar">
                              <img className="navbar__logo" src={Logo} alt="Logo png" width="40px"/>

@@ -1,3 +1,12 @@
+/* Navigation Bar */
+.align__center{
+    align-items: center;
+}
+
+.navbar__line{
+    border-bottom: 1px solid #dbdbde;
+}
+
 /* Navigation Bar Left */
 .navbar__leftbar{
     display: flex;
