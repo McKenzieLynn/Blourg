@@ -1,0 +1,23 @@
+/* Navigation Bar Left */
+.navbar__leftbar{
+    display: flex;
+}
+
+/* Logo */
+.navbar__logo{
+    margin: 8px 10px 8px 16px;
+    height: 40px;
+    width: auto;
+}
+
+/* Search Bar */
+.navbar__search{
+    height: 40px;
+    width: 190px;
+    border-radius:25px;
+    border: 0px;
+    background-color: #eff2f5;
+    font-size: 16px;
+    padding-left: 30px;
+    margin-top: 8px;
+}
