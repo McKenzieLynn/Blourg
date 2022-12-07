@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import "./NavBar.css";
+import Grid from '@mui/material/Grid';
 
 class NavBar extends Component {
     constructor(props) {
@@ -8,7 +10,19 @@ class NavBar extends Component {
 
     render() { 
         return (
-             <div>Howdy</div> 
+             <div>
+                 <Grid container >
+                     <Grid item xs ={3}>
+                         left
+                     </Grid>
+                     <Grid item xs ={6}>
+                         middle
+                     </Grid>
+                     <Grid item xs ={3}>
+                         right
+                     </Grid>
+                 </Grid>
+             </div> 
             );
     }
 }
