@@ -1,8 +1,11 @@
 /* Navigation Bar */
+
+/* Aligns everything to the center */
 .align__center{
     align-items: center;
 }
 
+/* Adds line across bottom */
 .navbar__line{
     border-bottom: 1px solid #dbdbde;
 }
