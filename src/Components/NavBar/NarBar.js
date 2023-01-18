@@ -8,7 +8,7 @@ import Globe from "../../Images/Icons/Globe.png";
 import Book from "../../Images/Icons/Book.png";
 import Money from "../../Images/Icons/Money.png";
 import { Avatar } from '@mui/material';
-import PFP from "../../Images/PFPs/pfp.png";
+import PFP from "../../Images/PFPs/pfp.png"; /* Beginning of right grid */
 
 class NavBar extends Component {
     constructor(props) {
@@ -50,8 +50,9 @@ class NavBar extends Component {
                     {/* Right side */}
                      <Grid item xs ={3}>
                          <div className="navbar__right">
-                             <div>
-                                 <Avatar src={PFP} alt="PFP" height="35px" width="35px" />
+                             <div className="navbar__righttab">
+                                 <Avatar className="navbar__rightimg" src={PFP} alt="PFP" height="30px" width="30px" />
+                                 <div className="navbar__profilename"> Kenzie </div>
                              </div>
                          </div>
                      </Grid>

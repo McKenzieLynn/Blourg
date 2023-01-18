@@ -52,3 +52,22 @@
 .navbar__icons.active{
     border-bottom: 3px solid #a0c293;
 }
+
+/* Right side of grid */
+
+.navbar__righttab {
+    display: flex;
+    margin-left: 40px;
+}
+
+.navbar__rightimg {
+    margin-top: 15px;
+    margin-right: 10px;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.navbar__profilename {
+    margin-top: 20px;
+    font-weight: 600;
+}
