@@ -7,6 +7,8 @@ import Notif from "../../Images/Icons/Notif.png";
 import Globe from "../../Images/Icons/Globe.png";
 import Book from "../../Images/Icons/Book.png";
 import Money from "../../Images/Icons/Money.png";
+import { Avatar } from '@mui/material';
+import PFP from "../../Images/PFPs/pfp.png";
 
 class NavBar extends Component {
     constructor(props) {
@@ -47,7 +49,11 @@ class NavBar extends Component {
                      </Grid>
                     {/* Right side */}
                      <Grid item xs ={3}>
-                         right
+                         <div className="navbar__right">
+                             <div>
+                                 <Avatar src={PFP} alt="PFP" height="35px" width="35px" />
+                             </div>
+                         </div>
                      </Grid>
                  </Grid>
              </div> 
