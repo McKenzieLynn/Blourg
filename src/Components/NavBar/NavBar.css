@@ -58,16 +58,34 @@
 .navbar__righttab {
     display: flex;
     margin-left: 40px;
+    align-items: center;
 }
 
 .navbar__rightimg {
-    margin-top: 15px;
     margin-right: 10px;
-    max-width: 30px;
-    max-height: 30px;
+    max-width: 40px;
+    max-height: 40px;
 }
 
 .navbar__profilename {
-    margin-top: 20px;
     font-weight: 600;
+}
+
+.user__profile {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__iconsRight {
+    display: flex;
+    margin: 0, 8rem;
+    align-items: center;
+}
+
+.navbar__rightIcon {
+    margin: 10px;
+    background: #a0c293;
+    padding: 3.3px;
+    border-radius: 50%;
+    justify-content: right;
 }

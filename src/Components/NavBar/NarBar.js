@@ -9,6 +9,11 @@ import Book from "../../Images/Icons/Book.png";
 import Money from "../../Images/Icons/Money.png";
 import { Avatar } from '@mui/material';
 import PFP from "../../Images/PFPs/pfp.png"; /* Beginning of right grid */
+import Plus from "../../Images/Icons/Plus.png";
+import Message from "../../Images/Icons/Message.png";
+import Unread from "../../Images/Icons/Unread.png";
+import DropDown from "../../Images/Icons/DropDown.png";
+
 
 class NavBar extends Component {
     constructor(props) {
@@ -20,6 +25,7 @@ class NavBar extends Component {
         return (
              <div>
                  <Grid container className="align__center navbar__line">
+
                      {/* Left side */}
                      <Grid item xs ={3}>
                          <div className="navbar__leftbar">
@@ -27,6 +33,7 @@ class NavBar extends Component {
                              <input className="navbar__search" type="text" placeholder="Search Blourg" />
                          </div>
                      </Grid>
+
                     {/* Middle */}
                      <Grid item xs ={6}>
                          <div className="navbar__middle">
@@ -47,12 +54,21 @@ class NavBar extends Component {
                              </div>
                          </div>
                      </Grid>
+
                     {/* Right side */}
                      <Grid item xs ={3}>
                          <div className="navbar__right">
                              <div className="navbar__righttab">
-                                 <Avatar className="navbar__rightimg" src={PFP} alt="PFP" height="30px" width="30px" />
-                                 <div className="navbar__profilename"> Kenzie </div>
+                                 <div className="user__profile">
+                                    <Avatar className="navbar__rightimg" src={PFP} alt="PFP" />
+                                    <div className="navbar__profilename"> Kenzie </div> 
+                                 </div>
+                                <div>
+                                    <img src={Plus} alt="Money" className="navbar__rightIcon" height="30px" width="30px"/>
+                                    <img src={Message} alt="Money" className="navbar__rightIcon" height="30px" width="30px"/>
+                                    <img src={Unread} alt="Money" className="navbar__rightIcon" height="30px" width="30px"/>
+                                    <img src={DropDown} alt="Money" className="navbar__rightIcon" height="30px" width="30px"/>
+                                </div>
                              </div>
                          </div>
                      </Grid>
