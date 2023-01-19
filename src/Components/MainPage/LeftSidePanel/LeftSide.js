@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import "./LeftSide.css";
 import ImageLayout from '../ImageLayout';
+import HeartHand from "../../../Images/Icons/HeartHand.png";
+import Friends from "../../../Images/Icons/Friends.png";
+import Picture from "../../../Images/Icons/Picture.png";
 
 class LeftSide extends Component {
   constructor(props) {
@@ -10,12 +13,9 @@ class LeftSide extends Component {
   render() {
     return (
       <div>
-          <ImageLayout image="" text=""/>
-          <ImageLayout />
-          <ImageLayout />
-          <ImageLayout />
-          <ImageLayout />
-          <ImageLayout />
+          <ImageLayout image={HeartHand} text="Mental Health Advocacy"/>
+          <ImageLayout image={Friends} text="Friends"/>
+          <ImageLayout image={Picture} text="Memories"/>
       </div>
     );
   }

@@ -12,7 +12,7 @@ class ImageLayout extends Component {
         return (
             <div className="imagelayout__container">
                 <div className="imagelayout__imglay">     {/* Picture Section */}
-                    <Avatar classname="imagelayout__img" src={PFP} alt="PFP" />
+                    <Avatar classname="imagelayout__img" src={this.props.image} />
                 </div>
                 <div className="imagelayout__text">      {/* Text section */}
                     {this.props.text}
