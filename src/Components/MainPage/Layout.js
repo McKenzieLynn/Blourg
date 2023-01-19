@@ -1,6 +1,7 @@
 import { Grid } from '@mui/material';
 import React, { Component } from 'react';
 import "./MainPage.css";
+import LeftSide from "./LeftSidePanel/LeftSide";
 
 class Layout extends Component {
     constructor(props) {
@@ -14,7 +15,7 @@ class Layout extends Component {
                     
                     {/* Left */}
                     <Grid item xs={3}> 
-                        Left
+                        <LeftSide />
                     </Grid>
 
                     {/* Middle */}

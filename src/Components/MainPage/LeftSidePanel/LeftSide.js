@@ -1,9 +1,24 @@
 import React, { Component } from 'react'
+import "./LeftSide.css";
+import ImageLayout from '../ImageLayout';
 
-export default class LeftSide extends Component {
+class LeftSide extends Component {
+  constructor(props) {
+      super(props);
+      this.state = { }
+  }
   render() {
     return (
-      <div>LeftSide</div>
-    )
+      <div>
+          <ImageLayout />
+          <ImageLayout />
+          <ImageLayout />
+          <ImageLayout />
+          <ImageLayout />
+          <ImageLayout />
+      </div>
+    );
   }
 }
+
+export default LeftSide
