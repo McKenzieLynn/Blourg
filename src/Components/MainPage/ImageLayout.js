@@ -15,7 +15,7 @@ class ImageLayout extends Component {
                     <Avatar classname="imagelayout__img" src={PFP} alt="PFP" />
                 </div>
                 <div className="imagelayout__text">      {/* Text section */}
-                    Kenzie Lynn Hearnsberger
+                    {this.props.text}
                 </div>
             </div>
         );

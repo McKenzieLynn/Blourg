@@ -10,7 +10,7 @@ class LeftSide extends Component {
   render() {
     return (
       <div>
-          <ImageLayout />
+          <ImageLayout image="" text=""/>
           <ImageLayout />
           <ImageLayout />
           <ImageLayout />
