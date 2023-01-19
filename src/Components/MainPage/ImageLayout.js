@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./MainPage.css"
+import "./MainPage.css";
 import { Avatar } from "@mui/material";
 import PFP from "../../Images/PFPs/pfp.png";
 
@@ -15,7 +15,7 @@ class ImageLayout extends Component {
                     <Avatar classname="imagelayout__img" src={PFP} alt="PFP" />
                 </div>
                 <div className="imagelayout__text">      {/* Text section */}
-                    Kenzie Lynn 
+                    Kenzie Lynn Hearnsberger
                 </div>
             </div>
         );
