@@ -39,12 +39,13 @@ class LeftSide extends Component {
   render() {
     return (
       <div>
-          <Clock/>
-          {
-            this.state.data.map( (item) =>(
-              <ImageLayout image={item.image} text={item.text} />
-            ))
-          }
+        <Clock/>
+      
+        {
+          this.state.data.map( (item) =>(
+            <ImageLayout image={item.image} text={item.text} />
+          ))
+        }
 
       </div>
     );

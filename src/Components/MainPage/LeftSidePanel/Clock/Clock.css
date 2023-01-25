@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .clock-text {
-    margin-bottom: 2rem;
-    font-size: 4rem;
-    font-weight: 300;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 200;
 }
