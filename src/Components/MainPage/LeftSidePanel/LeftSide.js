@@ -8,14 +8,42 @@ import Picture from "../../../Images/Icons/Picture.png";
 class LeftSide extends Component {
   constructor(props) {
       super(props);
-      this.state = { }
+      this.state = { 
+        data:[]
+      }
   }
+
+  getData=()=>{
+    let jsondata = [
+        {
+          "image": HeartHand,
+          "text":"Mental Health Advocacy",
+        },
+        {
+          "image":Friends,
+          "text":"Friends",
+        }, 
+        {
+          "image":Picture,
+          "text":"Memories",
+        } 
+    ];
+    this.setState({data : jsondata});
+  }
+
+  componentDidMount() {
+    this.getData();
+  }
+
   render() {
     return (
       <div>
-          <ImageLayout image={HeartHand} text="Mental Health Advocacy"/>
-          <ImageLayout image={Friends} text="Friends"/>
-          <ImageLayout image={Picture} text="Memories"/>
+          {
+            this.state.data.map( (item) =>(
+              <ImageLayout image={item.image} text={item.text} />
+            ))
+          }
+
       </div>
     );
   }
