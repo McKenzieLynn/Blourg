@@ -4,6 +4,7 @@ import ImageLayout from '../ImageLayout';
 import HeartHand from "../../../Images/Icons/HeartHand.png";
 import Friends from "../../../Images/Icons/Friends.png";
 import Picture from "../../../Images/Icons/Picture.png";
+import Clock from "../LeftSidePanel/Clock/Clock.js";
 
 class LeftSide extends Component {
   constructor(props) {
@@ -38,6 +39,7 @@ class LeftSide extends Component {
   render() {
     return (
       <div>
+          <Clock/>
           {
             this.state.data.map( (item) =>(
               <ImageLayout image={item.image} text={item.text} />

@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clock-text {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    font-weight: 300;
+}
