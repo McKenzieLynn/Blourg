@@ -24,7 +24,8 @@ class NavBar extends Component {
     render() { 
         return (
              <div>
-                 <Grid container className="align__center navbar__line">
+                 <Grid container className=" align__center navbar__line">
+                    
 
                      {/* Left side */}
                      <Grid item xs ={3}>
@@ -63,11 +64,19 @@ class NavBar extends Component {
                                     <Avatar className="navbar__rightimg" src={PFP} alt="PFP" />
                                     <div className="navbar__profilename"> Kenzie </div> 
                                  </div>
-                                <div>
-                                    <img src={Plus} alt="Money" className="navbar__rightIcon" height="30px" width="30px"/>
-                                    <img src={Message} alt="Money" className="navbar__rightIcon" height="30px" width="30px"/>
-                                    <img src={Unread} alt="Money" className="navbar__rightIcon" height="30px" width="30px"/>
-                                    <img src={DropDown} alt="Money" className="navbar__rightIcon" height="30px" width="30px"/>
+                                <div className="navbar__rightbuttons">
+                                    <div className="button">
+                                        <img src={Plus} alt="Money" className="navbar__rightIcon"/>
+                                    </div>
+                                    <div className="button">
+                                        <img src={Message} alt="Money" className="navbar__rightIcon"/>
+                                    </div>
+                                    <div className="button">
+                                        <img src={Unread} alt="Money" className="navbar__rightIcon"/>
+                                    </div>
+                                    <div className="button">
+                                        <img src={DropDown} alt="Money" className="navbar__rightIcon"/>                                    
+                                    </div>
                                 </div>
                              </div>
                          </div>

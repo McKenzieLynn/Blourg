@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.background {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  width: 100vw;
+  transform: translate(-50%, -50%);
+  height: auto;
+  filter: blur(10px);
+  z-index: -1000;
+}
