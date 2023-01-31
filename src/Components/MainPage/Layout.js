@@ -20,7 +20,7 @@ class Layout extends Component {
                     </Grid>
 
                     {/* Middle */}
-                    <Grid item xs={6}>
+                    <Grid item xs={6} className="middleContainer">
                         <StatusBar />
                     </Grid>
 
