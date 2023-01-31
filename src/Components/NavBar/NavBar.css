@@ -3,6 +3,16 @@
 .align__center{
     align-items: center;
 }
+
+/* .center-check {
+    width: 5px;
+    height: 100px;
+    position: fixed;
+    background: black;
+    left: 50%;
+    transform: translate(-50%);
+}  */
+
 /* Adds line across bottom */
 .navbar__line{
     background: #FAF8F1;

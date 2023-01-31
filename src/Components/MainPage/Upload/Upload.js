@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Upload.css';
+import { Paper, Avatar } from '@mui/material';
 
 class Upload extends Component {
     constructor(props) {
@@ -9,7 +10,7 @@ class Upload extends Component {
     render() { 
         return ( 
             <div>
-                Upload Panel 
+                <Paper className="upload__container" />
             </div>
          );
     }

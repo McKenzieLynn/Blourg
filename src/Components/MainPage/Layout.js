@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import "./MainPage.css";
 import LeftSide from "./LeftSidePanel/LeftSide";
 import StoriesBar from './Stories/StoriesBar.js';
+import Upload from "./Upload/Upload";
 
 class Layout extends Component {
     constructor(props) {
@@ -20,8 +21,14 @@ class Layout extends Component {
                     </Grid>
 
                     {/* Middle */}
-                    <Grid item xs={6} className="middleContainer">
-                        <StoriesBar />
+                    <Grid className="middleContainer">
+                        <div>
+                            <StoriesBar />
+                        </div>
+                        <div>
+                            <Upload />
+                        </div>
+                        
                     </Grid>
 
                     {/* Right */}

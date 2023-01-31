@@ -26,5 +26,9 @@
 
 /* Stories alignment section */
 .middleContainer{ 
-    margin-left: 50px !important;
+    /* margin-left: 50px !important;  */
+    max-width: 700px;
+    min-height: 100vh;
+    margin: auto;
+
 }
