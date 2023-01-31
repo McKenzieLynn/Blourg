@@ -23,3 +23,8 @@
     margin: 10px;
     font-size: 14px;
 }
+
+/* Stories alignment section */
+.middleContainer{ 
+    margin-left: 50px !important;
+}

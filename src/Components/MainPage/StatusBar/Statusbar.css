@@ -4,5 +4,7 @@
 
 .statusbar__status{
     height: 200px;
-    width: 120px;
+    width: 110px;
+    margin: 20px 5px;
+    border-radius: 15px;
 }
