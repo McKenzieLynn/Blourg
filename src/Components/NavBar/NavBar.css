@@ -1,94 +1,78 @@
 /* Navigation Bar Left Grid */
-
 /* Aligns everything to the center */
 .align__center{
     align-items: center;
 }
-
-
 /* Adds line across bottom */
 .navbar__line{
-    background: #faf8f1;
-    border-bottom: 1px solid #dbdbde;
+    background: #FAF8F1;
+    border-bottom: 1px solid #DBDBDE;
     filter: drop-shadow(0px 5px 8px rgba(99, 99, 99, 0.4));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
 /* Navigation Bar Left */
 .navbar__leftbar{
     display: flex;
 }
-
 /* Logo */
 .navbar__logo{
     margin: 8px 10px 8px 16px;
     height: 40px;
     width: auto;
 }
-
 /* Search Bar */
 .navbar__search{
     height: 40px;
     width: 190px;
     border-radius:25px;
-    background-color: #eff2f5;
+    background-color: #EFF2F5;
     font-size: 16px;
     padding-left: 30px;
     margin-top: 8px;
 }
-
 /* Navigation bar middle */
-
 .navbar__middle{
     display: flex;
     margin-top: 10px;
-    margin: auto;
+    margin-left: 7%;
 }
-
 /* 5 icons */
 .navbar__icons{
     width: 120px;
     height: 45px;
 }
-
 /* Line at bottom of active icon */
 .navbar__icons.active{
-    border-bottom: 3px solid #a0c293;
+    border-bottom: 3px solid #A0C293;
 }
-
 /* Right side of grid */
-
 .navbar__righttab {
     display: flex;
-    margin-left: 40px;
     align-items: center;
 }
-
 .navbar__rightimg {
     margin-right: 10px;
     max-width: 40px;
     max-height: 40px;
 }
-
 .navbar__profilename {
     font-weight: 600;
 }
-
 .user__profile {
     display: flex;
     align-items: center;
 }
-
 .navbar__iconsRight {
     display: flex;
     align-items: center;
 }
-
 .navbar__rightIcon {
     width: 17px;
 }
-
 .button {
-    background: #a0c293;
+    background: #A0C293;
     margin: 12px;
     padding: 6px;
     border-radius: 50%;
@@ -96,7 +80,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .navbar__rightbuttons {
-    display: flex; 
+    display: flex;
 }

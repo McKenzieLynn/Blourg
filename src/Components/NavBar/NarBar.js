@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import "./NavBar.css";
-import Grid from '@mui/material/Grid';
 import Logo from "../../Images/Icons/Logo.png";
 import Home from "../../Images/Icons/Home.png"; /* Beginning of middle grid */
 import Notif from "../../Images/Icons/Notif.png";
@@ -14,29 +13,24 @@ import Message from "../../Images/Icons/Message.png";
 import Unread from "../../Images/Icons/Unread.png";
 import DropDown from "../../Images/Icons/DropDown.png";
 
-
 class NavBar extends Component {
     constructor(props) {
         super(props);
         this.state = { }
     }
-
-    render() { 
+    render() {
         return (
              <div>
-                 <Grid container className=" align__center navbar__line">
-                    
-
+                 <div container className="navbar__line">
                      {/* Left side */}
-                     <Grid item xs ={3}>
+                     <div>
                          <div className="navbar__leftbar">
                              <img className="navbar__logo" src={Logo} alt="Logo png" width="40px"/>
                              <input className="navbar__search" type="text" placeholder="Search Blourg" />
                          </div>
-                     </Grid>
-
+                     </div>
                     {/* Middle */}
-                     <Grid item xs ={6}>
+                     <div>
                          <div className="navbar__middle">
                              <div className="navbar__icons active">
                                  <img src={Home} alt="Home" height="35px" width="35px" />
@@ -47,22 +41,21 @@ class NavBar extends Component {
                              <div className="navbar__icons">
                                  <img src={Globe} alt="Explore" height="35px" width="35px" />
                              </div>
-                             <div className="navbar__icons"> 
+                             <div className="navbar__icons">
                                  <img src={Book} alt="Book" height="35px" width="35px" />
                              </div>
                              <div className="navbar__icons">
                                  <img src={Money} alt="Money" height="35px" width="35px" />
                              </div>
                          </div>
-                     </Grid>
-
+                     </div>
                     {/* Right side */}
-                     <Grid item xs ={3}>
+                     <div>
                          <div className="navbar__right">
                              <div className="navbar__righttab">
                                  <div className="user__profile">
                                     <Avatar className="navbar__rightimg" src={PFP} alt="PFP" />
-                                    <div className="navbar__profilename"> Kenzie </div> 
+                                    <div className="navbar__profilename"> Kenzie </div>
                                  </div>
                                 <div className="navbar__rightbuttons">
                                     <div className="button">
@@ -75,16 +68,15 @@ class NavBar extends Component {
                                         <img src={Unread} alt="Money" className="navbar__rightIcon"/>
                                     </div>
                                     <div className="button">
-                                        <img src={DropDown} alt="Money" className="navbar__rightIcon"/>                                    
+                                        <img src={DropDown} alt="Money" className="navbar__rightIcon"/>
                                     </div>
                                 </div>
                              </div>
                          </div>
-                     </Grid>
-                 </Grid>
-             </div> 
+                     </div>
+                 </div>
+             </div>
             );
     }
 }
- 
 export default NavBar;
