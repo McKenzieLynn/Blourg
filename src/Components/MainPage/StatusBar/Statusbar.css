@@ -1,0 +1,8 @@
+.statusbar__container{
+    display: flex; 
+}
+
+.statusbar__status{
+    height: 200px;
+    width: 120px;
+}
