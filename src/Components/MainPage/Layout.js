@@ -2,7 +2,7 @@ import { Grid } from '@mui/material';
 import React, { Component } from 'react';
 import "./MainPage.css";
 import LeftSide from "./LeftSidePanel/LeftSide";
-import StatusBar from './StatusBar/StatusBar';
+import StoriesBar from './Stories/StoriesBar.js';
 
 class Layout extends Component {
     constructor(props) {
@@ -21,7 +21,7 @@ class Layout extends Component {
 
                     {/* Middle */}
                     <Grid item xs={6} className="middleContainer">
-                        <StatusBar />
+                        <StoriesBar />
                     </Grid>
 
                     {/* Right */}

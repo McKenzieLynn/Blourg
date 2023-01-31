@@ -1,8 +1,10 @@
-.statusbar__container{
+.stories__container{
     display: flex; 
+    width: 600px;
+    overflow-x: scroll;
 }
 
-.statusbar__status{
+.stories{
     height: 200px;
     width: 110px;
     margin: 20px 5px;

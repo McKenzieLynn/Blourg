@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import "./StatusBar";
+import "./StoriesBar";
 import { Paper } from '@mui/material';
 
-class Status extends Component {
+class Story extends Component {
     constructor(props) {
         super(props);
         this.state = {}
@@ -10,10 +10,10 @@ class Status extends Component {
     render() {
         return (
             <div>
-                <Paper className="statusbar__status" />
+                <Paper className="stories" />
             </div>
         );
     }
 }
  
-export default Status;
+export default Story;
