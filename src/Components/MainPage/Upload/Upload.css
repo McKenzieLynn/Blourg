@@ -3,3 +3,27 @@
     width: 600px;
     border-radius: 15px;
 }
+
+.upload__top{
+    display: flex;
+}
+
+.upload__pfp{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.upload__box{
+    height: 40px;
+    width: 480px;
+    border: 0px;
+    background-color: #EFF2F5;
+    border-radius: 30px;
+    font-size: 16px;
+    padding-left: 20px;
+    margin: 15px;
+}
+
+.upload__bottom{
+
+}
