@@ -41,7 +41,7 @@
 .navbar__middle{
     display: flex;
     margin-top: 10px;
-    margin-left: 60px;
+    margin: auto;
 }
 
 /* 5 icons */
