@@ -25,5 +25,21 @@
 }
 
 .upload__bottom{
+    border-top: 1px solid #e3e6ea;
+    display: flex;
+    width: 480px;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    padding-top: 5px;
 
 }
+
+.upload__tabs{
+    width: 150px;
+    display: flex;
+}
+
+/* .upload__text{
+    margin: 5px;
+    display: flex;
+} */
