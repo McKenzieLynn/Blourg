@@ -4,6 +4,7 @@ import "./MainPage.css";
 import LeftSide from "./LeftSidePanel/LeftSide";
 import StoriesBar from './Stories/StoriesBar.js';
 import Upload from "./Upload/Upload";
+import PostContainer from './PostContainer/PostContainer';
 
 class Layout extends Component {
     constructor(props) {
@@ -22,13 +23,9 @@ class Layout extends Component {
 
                     {/* Middle */}
                     <Grid className="middleContainer">
-                        <div>
-                            <StoriesBar />
-                        </div>
-                        <div>
-                            <Upload />
-                        </div>
-                        
+                        <StoriesBar />
+                        <Upload />
+                        <PostContainer />
                     </Grid>
 
                     {/* Right */}
