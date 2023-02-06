@@ -5,6 +5,7 @@ import LeftSide from "./LeftSidePanel/LeftSide";
 import StoriesBar from './Stories/StoriesBar.js';
 import Upload from "./Upload/Upload";
 import PostContainer from './PostContainer/PostContainer';
+import RightSide from './RightSidePanel/RightSide';
 
 class Layout extends Component {
     constructor(props) {
@@ -30,7 +31,7 @@ class Layout extends Component {
 
                     {/* Right */}
                     <Grid item xs={3}>
-                        Right
+                        <RightSide />
                     </Grid>
                 </Grid>
             </div>
