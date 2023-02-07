@@ -45,7 +45,7 @@ class LeftSide extends Component {
         },
         {
           "image":Library,
-          "text":"Beep Boop",
+          "text":"Library",
         },
         {
           "image":Community,
@@ -73,7 +73,7 @@ class LeftSide extends Component {
 
   render() {
     return (
-      <div>
+      <div className="leftside">
         <Clock/>
       
         {
